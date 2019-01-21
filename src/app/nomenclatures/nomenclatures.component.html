@@ -2,7 +2,7 @@
     <h2>Услуги в заказе</h2>
 
     <ul class="nomenclatures">
-        <li *ngFor="let data of nomenclatures"
+        <li *ngFor="let data of nomenclatures | sortNomenclatures"
             class="nomenclature"
             [class.nomenclature__unavailable]="data.status === 'Unavailable'">
             <span class="nomenclature-code">{{data.code}}</span>
