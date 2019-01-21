@@ -5,11 +5,10 @@
         <li *ngFor="let data of nomenclatures"
             class="nomenclature"
             [class.nomenclature__unavailable]="data.status === 'Unavailable'">
-            <span>{{data.code}}</span>
-            <span>{{data.name}}</span>
-            <span>{{data.description}}</span>
-            <span>{{data.price}}</span>
-            <span (click)="remove(data)">X</span>
+            <span class="nomenclature-code">{{data.code}}</span>
+            <span class="nomenclature-name">{{data.name}}</span>
+            <span class="nomenclature-price">{{data.price}},00 ₽</span>
+            <span class="nomenclature-remove" (click)="remove(data)">&#10005;</span>
         </li>
     </ul>
 </div>

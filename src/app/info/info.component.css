@@ -1,0 +1,28 @@
+.info {
+  width: 100%;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff;
+}
+
+.info-content {
+  font-size: 18px;
+}
+
+.info-button {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #777;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.info-button:hover {
+  color: #555;
+  border-color: #999;
+}

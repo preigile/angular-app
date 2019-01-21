@@ -4,6 +4,11 @@
   margin: 30px auto;
 }
 
-.nomenclatures {
+.nomenclatures-container,
+.info-container {
+  margin: 0 10px;
+}
+
+.nomenclatures-container {
   flex-grow: 1;
 }

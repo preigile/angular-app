@@ -1,0 +1,39 @@
+.nomenclatures {
+  padding: 0;
+}
+
+.nomenclature {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+  background: #fff;
+  list-style: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+}
+
+.nomenclature-code {
+  flex-basis: 4em;
+  color: #555;
+}
+
+.nomenclature-name {
+  flex-grow: 1;
+}
+
+.nomenclature-price {
+  flex-basis: 5em;
+  font-weight: 700;
+}
+
+.nomenclature-remove {
+  color: #999;
+  cursor: pointer;
+}
+
+.nomenclature__unavailable {
+  color: #999;
+  background: #F7EDEA;
+  border: solid 1px #FFB4AA;
+}
